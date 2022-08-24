@@ -11,3 +11,212 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#login {
+  background-image: url(https://www.squadraholds.com/wp-content/uploads/2020/05/165A8585.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: right;
+  padding-right: 125px;
+  padding-top: 50px;
+}
+
+#login form {
+  height: 750px;
+}
+
+#logincolor {
+  color: #e7d425;
+  text-shadow: 4px 5px rgb(67, 65, 65);
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Allerta';
+}
+
+.input {
+  opacity: 0.7;
+  margin: 2px;
+ }
+
+ #signup {
+  height: 715px;
+  background-image: url(https://content.instructables.com/ORIG/F9V/B8EC/HWRZ604Y/F9VB8ECHWRZ604Y.jpg?auto=webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.signUpForm {
+  float: right;
+  text-align: right;
+  margin-right: 40px;
+  margin-top: 10px;
+  opacity: 0.7;
+  width: 20%;
+}
+
+#signupdiscription {
+  text-align: right;
+  font-size: x-large;
+  padding-right: 40px;
+  color: white;
+  text-shadow: 1px 1px rgb(221, 104, 2);
+}
+
+#submit_login {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#goBack {
+  margin-top: 5px;
+}
+
+.logoutButton {
+  margin-top: 4px;
+  float: right;
+  padding-right: 10px;
+}
+
+.userLink {
+  padding-right: 20px;
+  float: left;
+}
+
+#links {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5a4e321c2aeba5c44a00486a/1608763505189-86ABH0ZIBCHO140CJEJF/KOD_Rockville_2020_05+resized.jpg?format=1500w);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 500px;
+}
+
+h1 {
+  text-shadow: 3px 1px rgb(214, 176, 142);
+  color: #3d3d32;
+  padding-left: 15px;
+  font-size: xxx-large;
+}
+
+h2 {
+  text-shadow: 
+  3px 1px rgb(209, 178, 151),
+  .5px  0 3px white;
+  color: #3d3d32;
+  padding-left: 15px;
+}
+
+.calendar {
+  padding-left: 15px;
+}
+
+h3 {
+  color: whitesmoke;
+  padding-left: 15px;
+  font-size: x-large;
+}
+
+p {
+  color: whitesmoke;
+  padding-left: 15px;
+}
+
+a:link {
+  color: wheat;
+  background-color: transparent;
+  text-align: left;
+  padding-left: 15px;
+}
+
+a:visited {
+  color: whitesmoke;
+  background-color: transparent;
+}
+
+a:hover {
+  color: rgb(187, 182, 100);
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px rgb(217, 134, 2),
+  0 0 82px rgb(122, 83, 0),
+  0 0 92px rgb(237, 151, 22),
+  0 0 102px rgb(220, 195, 5),
+  0 0 151px rgb(156, 199, 4);
+  background-color: transparent;
+}
+
+a:active {
+  color: rgb(150, 150, 79);
+}
+
+#newReview {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#reviews {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5a4e321c2aeba5c44a00486a/1608763612019-RNJG2J0TANNSRXY2DEC3/image-asset.jpeg?format=1500w);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 550px;
+}
+
+.modal-body{
+  background-image: url(https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/asset/921d2c50-0ae1-4995-91ee-fa8bc540d165/gr1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+ }
+
+ #formBasicTitle, .modal-header {
+  background: transparent;
+ }
+
+.ui .card {
+  color: whitesmoke;
+  background-color: rgba(60, 60, 60, 0.855);
+  text-overflow: ellipsis;
+}
+
+.ui.grid {
+  padding: 50px 200px;
+}
+
+h1.title {
+text-align: right;
+padding-right: 40px;
+padding-top: 40px;
+}
+
+#review_card {
+  display: inline;
+  flex-wrap: wrap;
+  text-align: left;
+  margin: 10px;
+  font-size: 1.1em;
+}
+
+.navbar {
+  background-color: rgb(148, 95, 3);
+  overflow: hidden;
+}
+
+.navbar .navlink {
+  color: #f6f5f2;
+  text-align: center;
+  font-size: 17px;
+  margin: 5px;
+}
+
+.navbar .navlink:hover {
+  background-color: rgb(199, 179, 154);
+  color: rgb(133, 70, 70);
+}
+
+.hidden {
+  display: none;
+}
+
+.emailNote {
+  color: black !important;
+}
