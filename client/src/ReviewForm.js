@@ -52,11 +52,14 @@ function ReviewForm ({ closeModal, loggedInClimberId, onAddReview }) {
                             <Form.Control as="textarea" content="content" value={ content } onChange={ (e) => setContent(e.target.value) } placeholder="Enter Review" />
                         </Form.Group>
                         <Form.Control name="image" type="file" accept="image/*" onChange={ (e) => setImage(e.target.files[ 0 ]) } />
-                        <ButtonGroup className="me-2" aria-label="Submit Button">
-                            <Button variant="outline-primary" type="submit">
-                                Submit
-                            </Button>
-                        </ButtonGroup>
+                        <Modal.Footer>
+                            <ButtonGroup className="me-2" aria-label="Submit Button">
+                                <Button variant="outline-primary" type="submit">
+                                    Submit
+                                </Button>
+                            </ButtonGroup>
+                        </Modal.Footer>
+
                     </Form>
                 </Modal.Body>
             </Modal>
