@@ -37,7 +37,7 @@ function ReveiwCard ({ review, removeForever, handleUpdateReview, fetchAllReview
                     <span className="review_content">
                         {content}
                     </span>
-                    <img src={image} alt="image"/>
+                    <img src={image} alt="image" id="reviewImage"/>
                 </div>
             </div>
             <Modal show={show && page === 'climber'} onHide={handleClose}>
@@ -50,9 +50,6 @@ function ReveiwCard ({ review, removeForever, handleUpdateReview, fetchAllReview
                             <Form.Label>Review</Form.Label>
                             <Form.Control as="textarea" value={enteredContent} onChange={contentChangeHandler} placeholder={content} />
                         </Form.Group>
-                        {/* <Form.Group>
-                            <Form.Control name="image" type="file" accept="image/*" onChange={ (e) => setImage(e.target.files[ 0 ]) } />
-                        </Form.Group> */}
                         <ButtonGroup className="me-2" aria-label="Submit Button">
                             <Button variant="outline-primary" type="submit" >
                                 Update

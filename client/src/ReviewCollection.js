@@ -76,7 +76,7 @@ function ReviewCollection ({ setIsLoggedIn, page, loggedInClimberId }) {
           Add Review & Image
       </Button>
       {show && <ReviewForm closeModal={modalClose} loggedInClimberId={loggedInClimberId} onAddReview={handleAddReview}/>}
-        <div className="ui four column grid">
+      <div className="ui grid reviewContainer">
         <div id="review_card">
           { reviewInfo }
         </div>

@@ -24,15 +24,13 @@ function Navbar ({ loggedInClimberId, isLoggedIn, setIsLoggedIn }) {
             <div className="navbar">
                 <div>
                     <NavLink className="navlink" to="/browse-reviews" element={ <BrowseReviews /> }> Reviews & Images </NavLink>
-                    {/* <NavLink className="navlink" to="/gallery" element={ <Gallery /> }> Gallery </NavLink> */}
                     <NavLink className="navlink" to="/Links" element={ <Links /> }> Links/Information </NavLink>
                 </div>
                     <div className="climberLink">
                         <NavLink className="navlink" to={`/climbers/${loggedInClimberId}`} elemnet={ <BrowseReviews /> }>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" className="bi bi-person-circle" viewBox="0 0 16 16">
-                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                                <path fillRule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                            </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-image-alt" viewBox="0 0 16 16">
+                            <path d="M7 2.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0zm4.225 4.053a.5.5 0 0 0-.577.093l-3.71 4.71-2.66-2.772a.5.5 0 0 0-.63.062L.002 13v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4.5l-4.777-3.947z"/>
+                        </svg>
                         </NavLink>
                     </div>
                     <div className="logoutButton">
