@@ -44,7 +44,7 @@ function ReviewCollection ({ setIsLoggedIn, page, loggedInClimberId }) {
     fetch("/reviews", {
       method: 'POST',
       headers: new Headers({ "content-type": "application/json" }),
-      body: (newReview)
+      body: JSON.stringify(newReview)
     })
     setReviews([...reviews, newReview])
   }

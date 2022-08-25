@@ -10,16 +10,11 @@ import ReviewCollection from "./ReviewCollection";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  // const [ climbers, setClimbers ] = useState([])
   const [ loggedInClimberId, setLoggedInClimberId ] = useState(null)
-  // const [ gyms, setGyms ] = useState([])
   const [ isLoggedIn, setIsLoggedIn ] = useState(false)
 
   useEffect(() => {
     setLoggedInClimberId(sessionStorage.getItem("loggedInClimberId"))
-    // fetch("/climbers")
-    // .then((r) => r.json())
-    // .then((climbers) => setClimbers(climbers));
 }, []);
 
   return (

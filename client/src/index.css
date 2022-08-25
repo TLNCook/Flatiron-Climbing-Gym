@@ -167,7 +167,6 @@ a:active {
   background-image: url(https://images.squarespace-cdn.com/content/v1/5a4e321c2aeba5c44a00486a/1608763612019-RNJG2J0TANNSRXY2DEC3/image-asset.jpeg?format=1500w);
   background-repeat: no-repeat;
   background-size: cover;
-  /* padding-bottom: 400px; */
   height: 645px;
   padding-top: 75px;
 }
@@ -198,7 +197,6 @@ padding-top: 40px;
 
 .reviewContainer {
   overflow-y: auto;
-  /* overflow-x: hidden; */
   height: 500px;
 }
 
@@ -216,7 +214,6 @@ padding-top: 40px;
 
 .navbar {
   background-color: rgb(148, 95, 3);
-  /* overflow: hidden; */
 }
 
 .navbar .navlink {

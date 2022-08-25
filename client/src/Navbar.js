@@ -3,7 +3,6 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { NavLink, useNavigate } from "react-router-dom";
 import Links from "./Links"
-import Gallery from "./Gallery"
 import BrowseReviews from "./BrowseReviews"
 
 function Navbar ({ loggedInClimberId, isLoggedIn, setIsLoggedIn }) {
